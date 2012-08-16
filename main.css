@@ -1,0 +1,23 @@
+/*!
+Este CSS foi escrito as 3h da manhã
+Portanto, não me responsabilizo por alguma coisa tosca
+Se falar mal do código desse site na aula leva -2 pontos :P
+ */
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+.fixed {
+	position: fixed;
+	top: 0;
+}
+
+section {
+	margin-top: 50px;
+	padding-bottom: 30px;
+}
+#downloads {margin-top: 0;}
+.nav i {vertical-align: middle;}
+.alert ul li {margin: 8px 0;}
+.alert i {vertical-align: bottom;}
