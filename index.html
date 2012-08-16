@@ -35,11 +35,11 @@ Se falar mal do código desse site na aula leva -2 pontos :P
             
             <div class="hidden-phone hidden-tablet row">
               <ul class="nav nav-pills nav-stacked span4">
-                <li><a href="#downloads">Downloads</a></li>
-                <li><a href="#links">Links</a></li>
-                <li><a href="#calendario">Calendário</a></li>
-                <li><a href="#faq">FAQ</a></li>
-                <li><a href="#ementa">Ementa</a></li>
+                <li><a href="#aulas">Aulas <i class="icon-chevron-right pull-right"></i></a></li>
+                <li><a href="#links">Links Gerais <i class="icon-chevron-right pull-right"></i></a></li>
+                <li><a href="#calendario">Calendário <i class="icon-chevron-right pull-right"></i></a></li>
+                <li><a href="#faq">FAQ <i class="icon-chevron-right pull-right"></i></a></li>
+                <li><a href="#ementa">Ementa <i class="icon-chevron-right pull-right"></i></a></li>
               </ul>
             </div>
 
@@ -63,43 +63,115 @@ Se falar mal do código desse site na aula leva -2 pontos :P
 
         <div class="span8" id="main-content">
 
-          <section id="downloads">
-            <h2>Downloads</h2>
+          <section id="aulas">
+            <h2>Aulas</h2>
 
-            <ul class="nav nav-tabs nav-stacked">
-              <li>
-                <a href="downloads/linguagem-web-I-00.pdf"><i class="icon-download"></i> 0. Apresentação da Disciplina</a>
-              </li>
-              <li>
-                <a href="downloads/linguagem-web-I-01(introducao).pdf"><i class="icon-download"></i> 1. Introdução</a>
-              </li>
-              <li class="active">
-                <a href="#"><i class="icon-download"></i>  <span class="label label-warning">breve</span> 2. Tipos de linguagem de computador e linguagem de marcação</a>
-              </li>
 
-            </ul>
+
+            <div class="accordion" id="accordionAulas">
+
+                <div class="accordion-group">
+                  <div class="accordion-heading">
+                    <h3>
+                      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAulas" data-target="#aula-tipos">
+                      02. Tipos de linguagem de computador e a linguagem de marcação
+                      </a>
+                    </h3>
+                  </div>
+
+                  <div id="aula-tipos" class="accordion-body collapse in">
+                    <div class="accordion-inner">
+                    <p><span class="label label-warning">BREVE</span></p>
+                    </div>
+                  </div>
+                </div><!-- accordion-group -->
+
+                <div class="accordion-group">
+                  <div class="accordion-heading">
+                    <h3>
+                      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAulas" data-target="#aula-intro">
+                      01. Introdução
+                      </a>
+                    </h3>
+                  </div>
+
+                  <div id="aula-intro" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                          <p class="pull-right">
+                            <a href="downloads/linguagem-web-I-01(introducao).pdf" class="btn btn-success btn-large"><i class="icon-download icon-white"></i> Baixar slides</a><br>
+                            <small>Versão de 16.08.2012</small>
+                          </p>
+
+                          <h3>Links</h3>
+                          <ul class="unstyled">
+                            <li>
+                              <a href="http://www.youtube.com/watch?v=PcjDArT6dfQ"><i class="icon-film"></i> Vídeo da/o Siri (Sobre Máquina de Ditado do artigo do Bush. Siri é mais que ditado.)</a>
+                            </li>
+                            <li>
+                              <a href="http://www.youtube.com/watch?v=ycSjmoZGXdg"><i class="icon-film"></i> Google Glass (Sobre os a câmera de registro de pesquisa do artido do Bush)</a>
+                            </li>
+                            <li>
+                              <a href="http://www.youtube.com/watch?v=NJsacDCsiPg"><i class="icon-film"></i> Web 2.0 - A máquina somos nós (Sobre a importância da recuperação da informação)</a>
+                            </li>
+                          </ul>
+                    </div>
+                  </div>
+                </div><!-- accordion-group -->
+
+                <div class="accordion-group">
+                  <div class="accordion-heading">
+                    <h3>
+                      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAulas" data-target="#aula-apresentacao">
+                      00. Apresentação da Disciplina
+                      </a>
+                    </h3>
+                  </div>
+
+                  <div id="aula-apresentacao" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                          <p class="pull-right">
+                            <a href="downloads/linguagem-web-I-00.pdf" class="btn btn-success btn-large"><i class="icon-download icon-white"></i> Baixar slides</a><br>
+                            <small>Versão de 14.08.2012</small>
+                          </p>
+
+                          <h3>Links</h3>
+                          <ul class="unstyled">
+                            <li><a href="http://www.kickstarter.com/"><i class="icon-globe"></i> Kickstarter</a></li>
+                            <li><a href="https://gumroad.com/"><i class="icon-globe"></i> Gumroad</a></li>
+                            <li><a href="http://catarse.me/"><i class="icon-globe"></i> Catarse</a></li>
+                            <li><a href="https://squareup.com/"><i class="icon-globe"></i> Square</a></li>
+                          </ul>
+                    </div>
+                  </div>
+                </div><!-- accordion-group -->
+
+            </div><!-- accordion -->
+
           </section><!-- #downloads -->
 
             <hr>
 
           <section id="links">
-            <h2>Links</h2>
+            <h2>Links gerais</h2>
 
             <ul class="nav nav-tabs nav-stacked">
               <li>
                 <a href="http://db.tt/MVYo5pm"><i class="icon-wrench"></i> Criar conta no Dropbox.com</a>
               </li>
               <li>
-                <a href="http://www.youtube.com/watch?v=PcjDArT6dfQ"><i class="icon-film"></i> Vídeo da/o Siri (Sobre Máquina de Ditado do artigo do Bush. Siri é mais que ditado.)</a>
+                <a href="http://www.codecademy.com/"><i class="icon-globe"></i> Codecademy</a>
               </li>
               <li>
-                <a href="http://www.youtube.com/watch?v=ycSjmoZGXdg"><i class="icon-film"></i> Google Glass (Sobre os a câmera de registro de pesquisa do artido do Bush)</a>
+                <a href="http://delicious.com/rodrigomuniz/html5"><i class="icon-heart"></i> Meus bookmarks sobre HTML5</a>
               </li>
               <li>
-                <a href="http://www.youtube.com/watch?v=NJsacDCsiPg"><i class="icon-film"></i> Web 2.0 - A máquina somos nós (Sobre a importância da recuperação da informação)</a>
+                <a href="http://delicious.com/rodrigomuniz/js"><i class="icon-heart"></i> Meus bookmarks sobre JavaScript</a>
               </li>
-
+              <li>
+                <a href="http://delicious.com/rodrigomuniz/css3"><i class="icon-heart"></i> Meus bookmarks sobre CSS3</a>
+              </li>
             </ul>
+
           </section><!-- #links -->
 
             <hr>
@@ -179,7 +251,7 @@ Se falar mal do código desse site na aula leva -2 pontos :P
     <script type="text/javascript">
 
 $(document).ready(function () {  
-    $('.sidebar-nav').scrollspy()
+    $('.sidebar-nav .nav').scrollspy()
 
   var top = $('.sidebar-nav').offset().top - parseFloat($('.sidebar-nav').css('marginTop').replace(/auto/, 0));
   $(window).scroll(function (event) {
