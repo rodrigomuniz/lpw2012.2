@@ -21,3 +21,5 @@ section {
 .nav i {vertical-align: middle;}
 .alert ul li {margin: 8px 0;}
 .alert i {vertical-align: bottom;}
+
+dd {margin-bottom: 15px;}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Banco de dados de assinantes que serão avisado por email do lançamento do site -->
+<assinantes>
+	<usuario>
+		<email>biancaluiza01@hotmail.com</email>
+		<nome>Bianca</nome>
+		<timestamp>1331055595</timestamp>
+		<!-- timestamp é tempo em formato de máquina ou servidor, nesse caso foi gerado pelo PHP -->
+	</usuario>
+	<usuario>
+		<email>lsmmesquita@gmail.com</email>
+		<nome>EU</nome>
+		<timestamp>1331521016</timestamp>
+	</usuario>
+	<usuario>
+		<email>chagas.mateus@gmail.com</email>
+		<nome>Mateus Moura</nome>
+		<timestamp>1333116031</timestamp>
+	</usuario>
+	<usuario>
+		<email>charlescarrari@gmail.com</email>
+		<nome>Charles Carrari</nome>
+		<timestamp>1339530265</timestamp>
+	</usuario>
+</assinantes>
