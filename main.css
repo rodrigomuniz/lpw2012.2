@@ -8,6 +8,8 @@ body {
 	padding-bottom: 40px;
 }
 
+h2, h3, h4 {color: #468847}
+
 .fixed {
 	position: fixed;
 	top: 0;
@@ -23,3 +25,17 @@ section {
 .alert i {vertical-align: bottom;}
 
 dd {margin-bottom: 15px;}
+.accordion-heading h3 {margin: 0; line-height: 110%}
+.accordion-inner h3 {margin-top: 0}
+
+.page-header small {
+	vertical-align: middle;
+	font-size: 14px;
+}
+
+@media (max-width: 480px) {
+	.fixed {
+		position: static;
+		top: auto;
+	}
+}
