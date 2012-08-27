@@ -39,3 +39,9 @@ dd {margin-bottom: 15px;}
 		top: auto;
 	}
 }
+@media (max-width: 767px) {
+	.fixed {
+		position: static;
+		top: auto;
+	}	
+}
